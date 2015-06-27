@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>Sawara.PubSub</id>
+        <version>0.0.0</version>
+        <authors>kamichidu</authors>
+        <licenseUrl>https://raw.githubusercontent.com/kamichidu/cs-sawara.pubsub/master/LICENSE</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Micro publisher/subscriber library</description>
+        <copyright>Copyright kamichidu 2015</copyright>
+        <tags>Sawara Event Publish Subscribe Pub/Sub</tags>
+        <dependencies>
+            <dependency id="log4net" version="2.0.3" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin\Release\net35\Sawara.PubSub.dll" target="lib\net35\Sawara.PubSub.dll"/>
+        <file src="bin\Release\net40\Sawara.PubSub.dll" target="lib\net40\Sawara.PubSub.dll"/>
+    </files>
+</package>
