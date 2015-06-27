@@ -1,0 +1,6 @@
+language: csharp
+
+mono:
+  - latest
+
+solution: ./src/Sawara.PubSub.sln
